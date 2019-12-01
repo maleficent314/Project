@@ -205,6 +205,7 @@ public class Controller {
         if(ChoiceOfPlanet.getValue() == "Mars"){
             GivenEccentricity.setText(Double.toString(p4.getEccentricity()));
             GivenDistance.setText(Double.toString(p4.getDistance()));
+            System.out.println();
         }
         if(ChoiceOfPlanet.getValue() == "Jupiter"){
             GivenEccentricity.setText(Double.toString(p5.getEccentricity()));
